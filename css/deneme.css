@@ -8,6 +8,8 @@
 body{
     height: 100vh;
     background-image: url(https://frontendmentor-todo-app-react.vercel.app/static/media/bg-desktop-light.3508d620.jpg);
+    background-repeat: no-repeat;
+    width: auto;
 
 }
 
