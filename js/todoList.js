@@ -30,6 +30,19 @@ document.querySelector('#push').onclick = function
                 this.parentNode.remove();
             }
         }
+
+        //Crossing off a completed task
+        
+        var tasks = document.querySelectorAll(".task");
+        for(var i=0; i<tasks.length; i++){
+            tasks[i].onclick = function(){
+                this.classList.toggle('completed');
+            }
+        }
+
+        //Clearing the input field after each entry
+
+        document.querySelector("#newTask input").value = "";
     }
 
 }
