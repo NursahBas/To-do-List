@@ -12,7 +12,12 @@ body{
     width: auto;
 
 }
-
+.baslık{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 10%;
+    margin-right: 30%;
+}
 .container{
     width:40%;
     min-width: 450px;
@@ -21,12 +26,15 @@ body{
     top:50%;
     left:50%;
     padding: 30px 40px;
+    
 }
 
 #newTask{
     position: relative;
     background-color: #ffffff;
-    padding: 30px 20px;
+    padding: 20px 10px;
+    margin-left: 20%;
+    margin-right: 20%;
     border-radius: 5px;
     box-shadow: 0 15px 30px rgba(0,0,0, 0.3) ;
 
@@ -44,7 +52,6 @@ body{
     font-weight: 500;
     position: relative;
     border-radius: 5px;
- 
 }
 #newTask input:focus{
     outline: none;
@@ -72,7 +79,8 @@ body{
     margin-top: 60px;
     border-radius: 10px;
     box-shadow: 0 15px 30px rgba(0,0,0,0.3);
-    width: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
     position: relative;
 }
 
