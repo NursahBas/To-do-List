@@ -23,9 +23,10 @@ body{
     min-width: 450px;
     position: absolute;
     transform: translate(-50%,-50%);
-    top:50%;
+    margin-top:7%;
     left:50%;
     padding: 30px 40px;
+    
     
 }
 
@@ -42,7 +43,6 @@ body{
 
 #newTask input{
     width: 70%;
-    width: 70%;
     height: 45px;
     font-family: 'Poppins',sans-serif;
     font-size: 15px;
@@ -52,6 +52,7 @@ body{
     font-weight: 500;
     position: relative;
     border-radius: 5px;
+    
 }
 #newTask input:focus{
     outline: none;
@@ -82,6 +83,7 @@ body{
     margin-left: 20%;
     margin-right: 20%;
     position: relative;
+    
 }
 
 .task{
@@ -97,6 +99,7 @@ body{
 }
 
 .task span{
+    
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     font-weight: 400;

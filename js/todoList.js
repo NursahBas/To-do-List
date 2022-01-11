@@ -10,13 +10,17 @@ document.querySelector('#push').onclick = function
         document.querySelector('#tasks').innerHTML
         += `
             <div class="task">
+                <button class="task">
+                <i class="far fa-check-circle"></i>
+                </button>
                 <span id="taskname">
                     ${document.querySelector('#newTask input').value}
                 </span>
                 <button class="delete">
                 <i class="far fa-trash-alt"></i>
-
                 </button>
+
+                
 
             </div>
         
@@ -36,6 +40,7 @@ document.querySelector('#push').onclick = function
         var tasks = document.querySelectorAll(".task");
         for(var i=0; i<tasks.length; i++){
             tasks[i].onclick = function(){
+                
                 this.classList.toggle('completed');
             }
         }
