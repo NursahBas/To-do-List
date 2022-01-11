@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/todoList.js"></script>
     
 
     
@@ -15,7 +16,6 @@
 
 </head>
 <body>
-
     <div class="baslık">
         <h2>T O D O </h2>
     </div>
@@ -23,10 +23,14 @@
        <div id="newTask">
            <input type="text" placeholder="Task to be none..">
            <button id="push">Add</button>
-       </div>
-       <div  id="tasks"></div>
-   </div>
 
+        
+       </div>
+      
+
+    </div>
+    
+ <div  id="tasks"></div>
 
 
 
@@ -34,44 +38,7 @@
 
 
     <script src="js/todoList.js"></script>
-    <!-- <div>
-        <div class="conteiner">
-            <div id="newTask">
-                <input type="text" placeholder="Task to be done..">
-                <button id="push">Add</button>
-            </div>
-            <div id="tasks"></div>
-        
-        </div>
-    </div>
-<script type="text/javascript">
-
-document.querySelector('#push').onclick = function(){
-if(document.querySelector('#newTask input').value.length == 0){
-    alert("Please Enter a Task")
-}
-else{
-    document.querySelector('#tasks').innerHTML +=
-    <div class="task">
-    <span id="taskname">
-    ${document.querySelector('#newtask input').value}
-    </span>
-
-     <button class="delete">
-        <i class="far fa-trash-all"></i>
-     </button>
-    </div>
-
-    ;
-    //now active cancel button
-    //var current_tasks= document.querySelectorAll(".delete");
-    //for(var i=0; i<current_tasks.length; i++);
-    // current_tasks[i].onclick = function(){
-    //      this.parentNode.remover();
-    //  }
-}
-}
-</script> -->
+    
     
 </body>
 </html>
