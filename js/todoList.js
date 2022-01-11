@@ -19,12 +19,28 @@ document.querySelector('#push').onclick = function
                 <button class="delete">
                 <i class="far fa-trash-alt"></i>
                 </button>
+                
+            </div>
+        
+        `;
+       /* document.querySelector('#tasks').innerHTML
+        += `
+            <div class="task">
+                <button class="task">
+                <i class="far fa-check-circle"></i>
+                </button>
+                <span id="taskname">
+                    ${document.querySelector('#newTask input').value}
+                </span>
+                <button class="delete">
+                <i class="far fa-trash-alt"></i>
+                </button>
 
                 
 
             </div>
         
-        `;
+        `;*/
 
         //deleting a task
 
