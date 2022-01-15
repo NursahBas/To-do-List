@@ -7,7 +7,7 @@
 
 <br>
 <div align="center">
-   <img src="img/todolist.img.png" alt="Todo" width="80" height="80">
+   <img src="img/todolist.img.png" alt="Todo" width="50" height="50">
  
 <br>
 
@@ -20,9 +20,5 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 * [JavaScript](https://www.javascript.com/)
 * [Bootstrap](https://getbootstrap.com)
-<<<<<<< HEAD
-=======
 
-
->>>>>>> d36a1d88930998cb53d7325ab19cd1870f7c7240
 
