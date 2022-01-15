@@ -7,10 +7,8 @@
 
 <br>
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="img/todolist.img.png" alt="Todo" width="80" height="80">
-  </a>
-
+   <img src="img/todolist.img.png" alt="Todo" width="80" height="80">
+ 
 <br>
 
 
@@ -20,7 +18,7 @@
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [JavaScript] (https://www.javascript.com/)
+* [JavaScript](https://www.javascript.com/)
 * [Bootstrap](https://getbootstrap.com)
 
 
