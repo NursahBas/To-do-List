@@ -21,4 +21,5 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [JavaScript](https://www.javascript.com/)
 * [Bootstrap](https://getbootstrap.com)
 
-
+Projenin asıl halini görmek için bu linkten ulaşabilirsiniz..:point_down:
+[Todo-List]( https://nursahbas.github.io/To-do-List/)
