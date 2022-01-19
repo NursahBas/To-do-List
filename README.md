@@ -7,7 +7,7 @@
 
 <br>
 <div align="center">
-   <img src="img/todolist.img.png" alt="Todo" width="1800" height="650">
+   <img src="img/todolist.img.png" alt="Todo" width="500" height="650">
  
 <br>
 
@@ -22,6 +22,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [Bootstrap](https://getbootstrap.com)
 
 Projenin asıl halini görmek için bu linkten ulaşabilirsiniz..:point_down:
+<br>
 [Todo-List]( https://nursahbas.github.io/To-do-List/)
 
 
