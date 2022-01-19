@@ -1,3 +1,4 @@
+
 *,
 *:before,
 *:after{
@@ -5,7 +6,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
+.index-background{
     height: 100vh;
     background-image: url(https://frontendmentor-todo-app-react.vercel.app/static/media/bg-desktop-light.3508d620.jpg);
     background-repeat: no-repeat;
@@ -142,6 +143,12 @@ body{
 
 }
 
+.tarih{
+    mask-repeat: no-repeat;
+    color: #ffffff;
+    margin-right: 0px;
+}
+
 
 @media screen and (min-width: 320px) and (max-width: 460px) {
     body {
@@ -151,6 +158,11 @@ body{
     .baslık{
         padding-top: 30%;
     }
+}
+
+.popup-background{
+    background-image: url(https://cdn.dribbble.com/users/357241/screenshots/…548912.png?compress=1&resize=800x600&vertical=top);
+
 }
 
 

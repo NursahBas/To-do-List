@@ -1,3 +1,24 @@
+    var tarih=new Date();
+	var yil=tarih.getFullYear();
+	var ay=tarih.getMonth();
+	var gun=tarih.getDay();
+	var saat=tarih.getHours();
+	var dakika=tarih.getMinutes();
+	var saniye=tarih.getSeconds();	
+	document.write(gun+"/"+ay+"/"+yil+"<br>"+saat+":"+dakika+":"+saniye);
+
+
+/*var bugun = new Date();
+//gun
+var formatliTarih=bugun.getDate();
+//getmonth fonksiyonu ayları 0 ile 11 aralığında doner
+//bu yuzden +1 biz ekliyoruz , 0 birinci ay yani
+formatliTarih=formatliTarih+"."+Number(bugun.getMonth()+1);
+//yıl
+formatliTarih=formatliTarih+"."+bugun.getFullYear();
+document.getElementById("formatliTarih").innerHTML = formatliTarih;*/
+
+
 document.querySelector('#push').onclick = function
 (){ 
     //adding validation for empty input field
@@ -56,9 +77,10 @@ document.querySelector('#push').onclick = function
         var tasks = document.querySelectorAll(".task");
         for(var i=0; i<tasks.length; i++){
             tasks[i].onclick = function(){
-                
+            
                 this.classList.toggle('completed');
             }
+            
         }
 
         //Clearing the input field after each entry
