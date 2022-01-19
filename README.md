@@ -7,7 +7,7 @@
 
 <br>
 <div align="center">
-   <img src="img/todolist.img.png" alt="Todo" width="1800" height="650">
+   <img src="img/todolist.img.png" alt="Todo" width="1500" height="650">
  
 <br>
 
