@@ -7,8 +7,9 @@
 
 <br>
 <div align ="center">
-
-
+İlk girişte bizi karşılayan sayfamız.
+   <img src="img/popup.png" alt="Popup" width="1500" height="650">
+Daha sonrasında asıl listeleme yaptığımız sayfamız.
    <img src="img/todolist.img.png" alt="Todo" width="1500" height="650">
 
  
