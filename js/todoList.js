@@ -94,7 +94,7 @@ document.getElementById("formatliTarih").innerHTML = formatliTarih;*/
 	document.getElementById("formatlSaat").innerHTML = formatlSaat;
 */
 
-    var tarih=new Date();
+   /* var tarih=new Date();
 	var yil=tarih.getFullYear();
 	var ay=tarih.getMonth();
 	var gun=tarih.getDay();
@@ -102,6 +102,20 @@ document.getElementById("formatliTarih").innerHTML = formatliTarih;*/
 	var dakika=tarih.getMinutes();
 	var saniye=tarih.getSeconds();	
 	document.write(gun+"/"+ay+"/"+yil+"<br>"+saat+":"+dakika+":"+saniye);
+*/
 
-
-
+   /* function startTime() {
+        const today = new Date();
+        let h = today.getHours();
+        let m = today.getMinutes();
+        let s = today.getSeconds();
+        m = checkTime(m);
+        s = checkTime(s);
+        document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+        setTimeout(startTime, 1000);
+      }
+      
+      function checkTime(i) {
+        if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+        return i;
+      }*/
