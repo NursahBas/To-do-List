@@ -1,23 +1,3 @@
-    var tarih=new Date();
-	var yil=tarih.getFullYear();
-	var ay=tarih.getMonth();
-	var gun=tarih.getDay();
-	var saat=tarih.getHours();
-	var dakika=tarih.getMinutes();
-	var saniye=tarih.getSeconds();	
-	document.write(gun+"/"+ay+"/"+yil+"<br>"+saat+":"+dakika+":"+saniye);
-
-
-/*var bugun = new Date();
-//gun
-var formatliTarih=bugun.getDate();
-//getmonth fonksiyonu ayları 0 ile 11 aralığında doner
-//bu yuzden +1 biz ekliyoruz , 0 birinci ay yani
-formatliTarih=formatliTarih+"."+Number(bugun.getMonth()+1);
-//yıl
-formatliTarih=formatliTarih+"."+bugun.getFullYear();
-document.getElementById("formatliTarih").innerHTML = formatliTarih;*/
-
 
 document.querySelector('#push').onclick = function
 (){ 
@@ -89,4 +69,39 @@ document.querySelector('#push').onclick = function
     }
 
 }
-    
+
+/*var bugun = new Date();
+//gun
+var formatliTarih=bugun.getDate();
+//getmonth fonksiyonu ayları 0 ile 11 aralığında doner
+//bu yuzden +1 biz ekliyoruz , 0 birinci ay yani
+formatliTarih=formatliTarih+"."+Number(bugun.getMonth()+1);
+//yıl
+formatliTarih=formatliTarih+"."+bugun.getFullYear();
+document.getElementById("formatliTarih").innerHTML = formatliTarih;*/
+   
+/* Ayrııııı
+    var tarih=new Date();
+	var formatliTarih=tarih.getDay();
+	var formatliTarih=formatliTarih+"/"+Number(tarih.getMonth()+1);
+	var formatliTarih=formatliTarih+"/"+tarih.getFullYear();
+    document.getElementById("formatliTarih").innerHTML = formatliTarih;
+
+    var saat=new Date();
+	var formatlSaat=saat.getHours();
+	var formatlSaat=formatlSaat+"/"+saat.getMinutes();
+	var formatlSaat=formatlSaat+"/"+saat.getSeconds();	
+	document.getElementById("formatlSaat").innerHTML = formatlSaat;
+*/
+
+    var tarih=new Date();
+	var yil=tarih.getFullYear();
+	var ay=tarih.getMonth();
+	var gun=tarih.getDay();
+	var saat=tarih.getHours();
+	var dakika=tarih.getMinutes();
+	var saniye=tarih.getSeconds();	
+	document.write(gun+"/"+ay+"/"+yil+"<br>"+saat+":"+dakika+":"+saniye);
+
+
+
