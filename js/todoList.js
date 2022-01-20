@@ -1,6 +1,6 @@
 
-document.querySelector('#push').onclick = function
-(){ 
+
+document.querySelector('#push').onclick = function(){ 
     //adding validation for empty input field
 
     if(document.querySelector('#newTask input').value.length ==0){
@@ -24,25 +24,16 @@ document.querySelector('#push').onclick = function
             </div>
         
         `;
-       /* document.querySelector('#tasks').innerHTML
-        += `
-            <div class="task">
-                <button class="task">
-                <i class="far fa-check-circle"></i>
-                </button>
-                <span id="taskname">
-                    ${document.querySelector('#newTask input').value}
-                </span>
-                <button class="delete">
-                <i class="far fa-trash-alt"></i>
-                </button>
+        //SORMAN LAZIIIIIIIIIIIIIIIIIIIIIIIIIIM !!!!!!!!!!!!!!!
+        document.getElementById("#push").addEventListener("click",function(){
 
-                
-
-            </div>
+            document.querySelector(".popup").style.display = "flex";
+          })
         
-        `;*/
-
+        
+        document.querySelector(".buttons").addEventListener("click",function(){
+            document.querySelector(".popup").style.display = "none";
+        }) 
         //deleting a task
 
         var current_tasks = document.querySelectorAll(".delete");
