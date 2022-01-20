@@ -6,12 +6,11 @@
 
 
 <br>
-<div align="center">
-<<<<<<< HEAD
-   <img src="img/todolist.img.png" alt="Todo" width="500" height="650">
-=======
+<div align ="center">
+
+
    <img src="img/todolist.img.png" alt="Todo" width="1500" height="650">
->>>>>>> d835baa11f1bf2d4f2b1e8b07828bcf6e130fbee
+
  
 <br>
 
@@ -27,10 +26,5 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 Projenin asıl halini görmek için bu linkten ulaşabilirsiniz..:point_down:
 <br>
-<<<<<<< HEAD
-[Todo-List]( https://nursahbas.github.io/To-do-List/)
-
-=======
->>>>>>> d835baa11f1bf2d4f2b1e8b07828bcf6e130fbee
 
 [Todo-List]( https://nursahbas.github.io/To-do-List/)
