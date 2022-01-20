@@ -94,7 +94,7 @@ document.getElementById("formatliTarih").innerHTML = formatliTarih;*/
 	document.getElementById("formatlSaat").innerHTML = formatlSaat;
 */
 
-   /* var tarih=new Date();
+    var tarih=new Date();
 	var yil=tarih.getFullYear();
 	var ay=tarih.getMonth();
 	var gun=tarih.getDay();
@@ -102,7 +102,7 @@ document.getElementById("formatliTarih").innerHTML = formatliTarih;*/
 	var dakika=tarih.getMinutes();
 	var saniye=tarih.getSeconds();	
 	document.write(gun+"/"+ay+"/"+yil+"<br>"+saat+":"+dakika+":"+saniye);
-*/
+
 
    /* function startTime() {
         const today = new Date();
