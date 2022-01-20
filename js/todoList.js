@@ -25,15 +25,15 @@ document.querySelector('#push').onclick = function(){
         
         `;
         //SORMAN LAZIIIIIIIIIIIIIIIIIIIIIIIIIIM !!!!!!!!!!!!!!!
-        document.getElementById("#push").addEventListener("click",function(){
+       // document.getElementById("#push").addEventListener("click",function(){
 
-            document.querySelector(".popup").style.display = "flex";
-          })
-        
-        
-        document.querySelector(".buttons").addEventListener("click",function(){
-            document.querySelector(".popup").style.display = "none";
-        }) 
+       // document.querySelector(".popup").style.display = "flex";
+       //   })
+       //document.querySelector(".buttons").addEventListener("click",function(){
+       //  document.querySelector(".popup").style.display = "none";
+       // }) 
+
+       
         //deleting a task
 
         var current_tasks = document.querySelectorAll(".delete");
