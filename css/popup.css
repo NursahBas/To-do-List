@@ -35,36 +35,43 @@ body{
     margin-top:-20px;
 
 }
-form .btn{
-    margin: 30px;
-    height: 45px;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
+.buttons {
+    margin: 4%;
+    text-align: center;
 }
 
-form .btn .inner{
-    height: 100%;
-    width: 300%;
-    position: absolute;
-    left: -100%;
-    background: -webkit-liner-gradient(right, #56d8e4,#9f01ea,#56d8e4,#9f01ea);
-    transition: all 0.4s;
-}
-
-form .btn:hover .inner{
-    left: 0;
-}
-
-form .btn button{
-    height: 100%;
-    width: 100%;
-    background: none;
-    border: none;
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
     color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    text-transform:uppercase;
-    letter-spacing: 1px;
     cursor: pointer;
+    margin: 5px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-1 {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(122, 30, 228, 0.75);
 }
