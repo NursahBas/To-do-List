@@ -167,7 +167,9 @@
     height: 100%;
     position: absolute;
     top: 0;
-    display: flex;
+    /*display: flex;*/
+    /*popup un çıkmasını sağlıyor*/
+    display: none;
     justify-content: center;
     align-items: center;
 }
