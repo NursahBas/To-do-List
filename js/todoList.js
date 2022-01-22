@@ -1,6 +1,6 @@
-var popup = document.getElementById('popupid');
+/*var popup = document.getElementById('popupid');
 var btn = document.getElementById("push");
-var button = document.getElementById("buttonsgec")[0];
+var button = document.getElementById("buttonsgec")[0];*/
 
 document.querySelector('#push').onclick = function(){ 
     //boş giriş alanı için doğrulama ekleme
@@ -11,12 +11,13 @@ document.querySelector('#push').onclick = function(){
     }
     //yeni ekleme
     else{
-        btn.onclick = function(){
+        /*btn.onclick = function(){
             popup.style.display="block";
            }
         button.onclick = function(){
             popup.style.display = "none";
-         }
+         }*/
+         
         document.querySelector('#tasks').innerHTML
         += `
             <div class="task">
@@ -33,6 +34,10 @@ document.querySelector('#push').onclick = function(){
             </div>
         
         `;
+        function SetMaxLength(){
+            var input = document.getElementById("myInput");
+            input.SetMaxLength = 10;
+        }
 
         //SORMAN LAZIIIIIIIIIIIIIIIIIIIIIIIIIIM !!!!!!!!!!!!!!!
         /*document.getElementById("#push").addEventListener("click",function(){

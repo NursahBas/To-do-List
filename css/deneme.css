@@ -173,6 +173,7 @@
     display: none;
     justify-content: center;
     align-items: center;
+    margin:auto;
     
 }
 
@@ -183,6 +184,7 @@
     padding: 20px;
     border-radius: 5px;
     position: relative;
+    
 }
 
 .tebrikler-img{
