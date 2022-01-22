@@ -1,13 +1,13 @@
 
 
 document.querySelector('#push').onclick = function(){ 
-    //adding validation for empty input field
+    //boş giriş alanı için doğrulama ekleme
 
 
     if(document.querySelector('#newTask input').value.length ==0){
         alert("Please Enter a Task")
     }
-    //adding a new
+    //yeni ekleme
     else{
         document.querySelector('#tasks').innerHTML
         += `
@@ -47,7 +47,7 @@ document.querySelector('#push').onclick = function(){
             }
         }
 
-        //Crossing off a completed task
+        //Tamamlanmış bir görevi geçmek
         
         var tasks = document.querySelectorAll(".task");
         for(var i=0; i<tasks.length; i++){
@@ -58,7 +58,7 @@ document.querySelector('#push').onclick = function(){
             
         }
 
-        //Clearing the input field after each entry
+        //Her girişten sonra giriş alanını temizleme
 
         document.querySelector("#newTask input").value = "";
     }
