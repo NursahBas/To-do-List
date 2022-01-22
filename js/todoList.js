@@ -1,7 +1,21 @@
 
+var popup = document.getElementById('popupid');
+var btn = document.getElementById("push");
+var button = document.getElementById("buttonsgec")[0];
 
 document.querySelector('#push').onclick = function(){ 
     //boş giriş alanı için doğrulama ekleme
+    btn.onclick = function(){
+     popup.style.display="block";
+    }
+    button.onclick = function(){
+       popup.style.display = "none";
+    }
+    window.onclick = function(event){
+        if(event.target == modal){
+            popup.style.display  = "none";
+        }
+    }
 
 
     if(document.querySelector('#newTask input').value.length ==0){
@@ -9,6 +23,7 @@ document.querySelector('#push').onclick = function(){
     }
     //yeni ekleme
     else{
+
         document.querySelector('#tasks').innerHTML
         += `
             <div class="task">
