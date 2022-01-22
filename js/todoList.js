@@ -3,6 +3,7 @@
 document.querySelector('#push').onclick = function(){ 
     //adding validation for empty input field
 
+
     if(document.querySelector('#newTask input').value.length ==0){
         alert("Please Enter a Task")
     }
@@ -24,14 +25,17 @@ document.querySelector('#push').onclick = function(){
             </div>
         
         `;
-        //SORMAN LAZIIIIIIIIIIIIIIIIIIIIIIIIIIM !!!!!!!!!!!!!!!
-       // document.getElementById("#push").addEventListener("click",function(){
 
-       // document.querySelector(".popup").style.display = "flex";
-       //   })
-       //document.querySelector(".buttons").addEventListener("click",function(){
-       //  document.querySelector(".popup").style.display = "none";
-       // }) 
+        //SORMAN LAZIIIIIIIIIIIIIIIIIIIIIIIIIIM !!!!!!!!!!!!!!!
+        /*document.getElementById("#push").addEventListener("click",function(){
+        document.querySelector(".popup").style.display = "flex";
+        })
+        document.querySelector(".buttons").addEventListener("click",function(){
+        document.querySelector(".popup").style.display = "none";
+        }) 
+       */ 
+        
+     
 
        
         //deleting a task
