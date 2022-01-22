@@ -87,7 +87,7 @@ document.getElementById("formatliTarih").innerHTML = formatliTarih;*/
 
     var tarih=new Date();
 	var yil=tarih.getFullYear();
-	var ay=tarih.getMonth();
+	var ay=tarih.getMonth()+1;
 	var gun=tarih.getDay();
 	var saat=tarih.getHours();
 	var dakika=tarih.getMinutes();
