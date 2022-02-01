@@ -1,6 +1,4 @@
-var popup = document.getElementById('popupid');
-var btn = document.getElementById("push");
-var button = document.getElementById("buttonsgec")[0];
+
 
 document.querySelector('#push').onclick = function(){ 
     //boş giriş alanı için doğrulama ekleme
@@ -11,12 +9,7 @@ document.querySelector('#push').onclick = function(){
     }
     //yeni ekleme
     else{
-        btn.onclick = function(){
-            popup.style.display="block";
-           }
-        button.onclick = function(){
-            popup.style.display = "none";
-         }
+      
          
         document.querySelector('#tasks').innerHTML
         += `
@@ -127,3 +120,27 @@ document.getElementById("formatliTarih").innerHTML = formatliTarih;*/
         if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
         return i;
       }*/
+
+
+      window.addEventListener('load', (event) => {
+        console.log('page is fully loaded');
+        /*var body = document.querySelector("body")
+        body.style.backgroundColor= red */
+        /*document.body.style.backgroundColor = "#AA0000";*/
+    
+        var popup = document.getElementById('popupid')
+        var button = document.getElementById("buttonsgec");
+
+        popup.style.display="block"; 
+        
+        document.getElementById("buttonsgec").onclick = function () { 
+            console.log("TEBRİKLER")
+           /* var popup = document.getElementById('popupid');*/
+            popup.style.display = "none";
+         };
+           
+        
+        
+
+      });
+     
