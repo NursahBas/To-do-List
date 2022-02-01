@@ -41,15 +41,22 @@
         </div>
 
     </div>
-    <div class="popup" id="popupid">
-        <div class="popup-content">
-            <img class="tebrikler-img" src="https://emojigraph.org/media/google/party-popper_1f389.png" alt="tebrikler">
-            <h2 style="text-align: center;" >Tebrikler</h2>
-            <h4 style="text-align: center;">Yeni bir list eklediniz</h4>
-            <div class="buttons" id="buttonsgec">
-                <button class="btn-hover color-1">GEÇ</button>
+    <div class="popup" id="popupid" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+       <!-- <div class="modal-dialog"> -->
+            <div class="popup-content">
+               <!-- <div class="modal-header">  --> 
+                    <img class="tebrikler-img" src="https://emojigraph.org/media/google/party-popper_1f389.png" alt="tebrikler">
+                    <h2 style="text-align: center;" >Tebrikler</h2> 
+                    <h4 style="text-align: center;">Yeni bir list eklediniz</h4>
+
+                    <input type="text" placeholder="e-mail adress.." id="myInput">
+                    <button type="button " onclick="getInputValue();">Get Value</button>
+                    <div class="buttons" id="buttonsgec">
+                       <button class="btn-hover color-1">GEÇ</button>
+                    </div>
+             <!--   </div>  -->
             </div>
-        </div>
+     <!--   </div>   -->
 
     </div>
     

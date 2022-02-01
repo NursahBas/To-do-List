@@ -130,13 +130,19 @@ document.getElementById("formatliTarih").innerHTML = formatliTarih;*/
     
         var popup = document.getElementById('popupid')
         var button = document.getElementById("buttonsgec");
-
-        popup.style.display="block"; 
+             
         
-        document.getElementById("buttonsgec").onclick = function () { 
-            console.log("TEBRİKLER")
+        popup.style.display="block"; 
+       /* $("#popupid").toggle(3000); */
+         
+        document.getElementById("buttonsgec").onclick = function () {
+            
+            /*alert($(#popupid).text(Tebrikler));*/
+            /*console.log("TEBRİKLER")*/
            /* var popup = document.getElementById('popupid');*/
+           
             popup.style.display = "none";
+            
          };
            
         
