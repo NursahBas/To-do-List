@@ -129,11 +129,12 @@ document.getElementById("formatliTarih").innerHTML = formatliTarih;*/
         /*document.body.style.backgroundColor = "#AA0000";*/
     
         var popup = document.getElementById('popupid')
-        var button = document.getElementById("buttonsgec");
+        var button = document.getElementById('buttonsgec');
              
         
         popup.style.display="block"; 
        /* $("#popupid").toggle(3000); */
+       
          
         document.getElementById("buttonsgec").onclick = function () {
             
