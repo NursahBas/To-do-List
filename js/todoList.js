@@ -134,7 +134,10 @@ document.getElementById("formatliTarih").innerHTML = formatliTarih;*/
         
         popup.style.display="block"; 
        /* $("#popupid").toggle(3000); */
-       
+        function getInputValue(){
+            
+        }
+
          
         document.getElementById("buttonsgec").onclick = function () {
             
